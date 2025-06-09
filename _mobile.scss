@@ -1,0 +1,191 @@
+@media (max-width:767px) {
+    .center{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .top_header {
+        height: 703px;
+        padding-top: 32px;
+        &_catalog{
+            padding-top: 32px;
+            height: 368px;
+        }
+        &-cart{
+            padding-top: 32px;
+            height: 368px;
+        }
+    }
+
+    .header{
+        border-bottom: none;
+        height: 57px;
+        &_input{
+            display: none;
+        }
+    }
+
+    .menu{
+        display: none;
+        &-mob{
+            display: flex;
+            align-items: center;
+            gap: 32px;
+        }
+    }
+    
+    .logo{
+        margin-top: 0px;
+        &__img{
+            width: 99px;
+        }
+    }
+
+    .top{
+        &-paragraf-mebel{
+            text-align: center;
+            font-size: 16px;
+            line-height: 32px;
+        }
+        &_content{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            &_catalog {
+                margin-top: 82px;
+            }
+        }
+        &-perehod-catalog{
+            font-size: 14px;
+        }
+        &-heading-big{
+            font-size: 48px;
+            text-align: center;
+            line-height: 59px;
+            margin-top: 29px;
+            &-cart{
+                margin-top: 82px;
+            }
+        }
+    }
+
+    .heading{
+        font-size: 24px;
+        line-height: normal;
+        margin-top: 32px;
+        &_mob{
+            margin-top: 36px;
+        }
+    }
+
+    .for{
+        grid-template-columns: repeat(4, 1fr);
+        gap: 16px;
+        &__item{
+            grid-column: 1 / -1;
+            font-size: 28px;
+            height: 375px;
+            &__big{
+                height: 244px;
+            }
+        }
+        &__content{
+            gap: 16px;
+        }
+    }
+
+    .product {
+        width: 100%;
+        &-heading{
+            font-size: 18px;
+            margin-top: 9px;
+        }
+        &-text{
+            margin-top: 9.63;
+        }
+        &-price{
+            font-size: 18px;
+            &-sale{
+                font-size: 18px;
+            }
+        }
+        &-content{
+            row-gap: 32px;
+        }
+    }
+
+
+    .link_product-box{
+        margin-top: 36px;
+        margin-bottom: 32px;
+    }
+
+    .footer{
+        padding-bottom: 32px;
+        &__content{
+            justify-content: center;
+            gap: 34px;
+        }
+    }
+    
+    .nav_catalog {
+        padding-top: 32px;
+        gap: 16px;
+    }
+
+    .bread_crumbs_link {
+        font-size: 14px;
+    }
+
+    .select{
+        font-size: 14px;
+        &_sort{
+            font-size: 14px;
+        }
+    }
+
+    .cart{
+        grid-template-columns: repeat(4, 1fr);
+        gap: 48px; 
+        &_heading-name{
+            font-size: 18px;
+        }
+        &_text{
+            font-size: 12px;
+            line-height: 15px;
+        }
+        &_price{
+            font-size: 12px;
+            text-align: left;
+            line-height: 15px;
+            font-weight: 500;
+        }
+        &_img{
+            display: none;
+        }
+        &_form{
+            width: auto;
+        }
+        &_content {
+            grid-column: span 4;
+        }
+        &_info{
+            margin-left: 0px;
+        }
+        &_button-box {
+            display: flex;
+            gap: 14px;
+            margin-top: 0px;
+        }
+        &_button{
+            font-size: 12px;
+            &_form{
+                font-size: 16px;
+            }
+        }
+    }
+    .heading_2{
+        margin-top: 48px;
+    }
+}
+

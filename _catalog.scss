@@ -1,0 +1,59 @@
+/* Каталог */ 
+
+.select{
+    width: 288px;
+    height: 41px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 1px solid #C4C4C4;
+    padding-left: 14px;
+    appearance: none;
+    display: grid;
+    line-height: normal;
+    position: relative;
+    background-image: url(img/Polygon-1.svg);
+    background-repeat: no-repeat, repeat;
+    background-position: right 22px top 50%, 0 0;
+    &_sort{
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: #000000;
+        padding-left: 14px;
+    }
+    &::after{
+        padding-right: 22px;
+    }
+}
+
+.nav_catalog{
+    padding-top: 64px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 32px;
+}
+
+.bread_crumbs_link{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 200% */
+    color: #000000;
+    text-decoration: none;
+    &:hover span{
+        text-decoration: underline;
+    }
+    &:not(:last-child):after{
+        content: '/';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px; /* 200% */
+        color: #000;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+   }
